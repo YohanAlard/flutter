@@ -27,6 +27,6 @@ deploy:
   api_key:
     secure: e1wtHkJW0Bh7HahJkFwDZMTvePeDuCMxgnaLH/IzQVqiouM4PD8L6o6D7wz21QObeQRWY0zFvQKU2ScYZ4jpuvAwhNZ01Aq0SJ1Y9bmqT0XMVVv9v3yNG+BhX3Z8AAuXQNBfjnv/1IHyUVwWpTjhkyeAWOgt+4s1KwgeE+lgZaFyKT1pZP3BsA50lGrleUqkEZB0QazfCqA06kAyZIZAKa4V4xE9CXKF9Jp+HaKGcO7ssvPmsab37VGLmXrB4S97epLIpsDqrN/pyD1jaXasKh3+Z4+rKIlXvJYX4yhWzFHXyfKT7+5poIY47g64dIYvY6JLUVdUIU7qnl+nDktdvWQV4clN7I85meC9Y5NCzTKbL6kG2vHghjKXOvkVw0IAbnyJBbD7nlLMZJQnB+XwA/2TvOENJzJbFKhmi+t9vJ8FJIcbhXPt/La3H7z7W7thlUtiQcwUHuiDOoNEHDeypFqY3t7PCW8Adw7sqjZ71LDUOjQZJuUO05RXLdHqiTEO3uzwhmrIVF49RldqVgkZNOEbK48Ipdg5Cnxdr6U3Nlaea9H32Pzk0DnL4s+KtSetARoSJlMSbN3WUYmO2MMAEXoGqz5TpA+Vn9qYPugRFaXRRwh9pBOg/vkfv5oxZiz85bUZ2VM+LK+2Ub08mCEb7AhR5l9ajmtgvZwht+wadRk=
   file: build/ios/iphoneos/app.ipa
-  draft: true
+  skip_cleanup: true
   on:
     repo: YohanAlard/flutter
